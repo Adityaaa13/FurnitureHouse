@@ -60,7 +60,6 @@ export const products = [
     qty: 0,
     name: "Wood Trunk ",
     description:"Dimensions (In Centimeters) H 41 x W 86 x D 46",
-    brand: "Persol",
     category: "Tables",
     gender: "Living Room",
     weight: "10Kg",
@@ -76,7 +75,6 @@ export const products = [
     qty: 0,
     name: "Wood Coffee Tablet",
     description:"Dimensions (in Inches) H 16 x W 35 x D 23.5",
-    brand: "Kate Spade",
     category: "Tables",
     gender: "living Room",
     weight: "10Kg",
@@ -93,7 +91,6 @@ export const products = [
     name: "Corral Round",
     description:
       "Vestibulum eu tellus sed lorem tristique lacinia ut vel urna. Vestibulum eu tellus sed lorem tristique lacinia ut vel urna.",
-    brand: "Carrera",
     category: "Tables",
     gender: "Bed Room",
     weight: "12Kg",
@@ -109,7 +106,6 @@ export const products = [
     name: "Hyperclax Active",
     description:
       "Aenean at velit consequat, faucibus mi id, tempor velit. Aenean at velit consequat, faucibus mi id, tempor velit.",
-    brand: "Oakley",
     category: "Tables",
     gender: "Dining Room",
     weight: "15Kg",
@@ -125,7 +121,6 @@ export const products = [
     name: "Rose Gold Chase",
     description:
       "Vivamus mattis quam sed libero pretium ullamcorper. Vivamus mattis quam sed libero pretium ullamcorper.",
-    brand: "Ray-Ban",
     category: "Storage",
     gender: "Kitchen",
     weight: "20Kg",
@@ -158,7 +153,6 @@ export const products = [
     name: "Mercury Rounded Red",
     description:
       "Donec interdum felis non justo sollicitudin lobortis. Donec interdum felis non justo sollicitudin lobortis.",
-    brand: "Carrera",
     category: "Storage",
     gender: "Living Room",
     weight: "10Kg",
@@ -174,7 +168,6 @@ export const products = [
     name: "Candyfloss-302",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    brand: "Ray-Ban",
     category: "Seating",
     gender: "Bed Room",
     weight: "50Kg",
@@ -190,7 +183,6 @@ export const products = [
     name: "Phenomenal Mercury-02",
     description:
       "Pellentesque ac tortor sed ipsum feugiat condimentum. Pellentesque ac tortor sed ipsum feugiat condimentum.",
-    brand: "Persol",
     category: "Seating",
     gender: "Living Room",
     weight: "5Kg",
@@ -205,7 +197,6 @@ export const products = [
     qty: 0,
     name: "Single Bed - Planked Walnut Finish ",
     description:"Dimensions (in Inches) H 32 x W 38 x D 80",
-    brand: "Kate Spade",
     category: "Seating",
     gender: "Bed Room",
     weight: "13Kg",
@@ -222,7 +213,6 @@ export const products = [
     name: "Blue Ray Wayfarer",
     description:
       "Donec interdum felis non justo sollicitudin lobortis. Donec interdum felis non justo sollicitudin lobortis.",
-    brand: "Carrera",
     category: "Tables",
     gender: "Living Room",
     weight: "9Kg",
@@ -238,7 +228,6 @@ export const products = [
     name: "Pernik",
     description:
       "Vestibulum eu tellus sed lorem tristique lacinia ut vel urna. Vestibulum eu tellus sed lorem tristique lacinia ut vel urna.",
-    brand: "Carrera",
     category: "Seating",
     gender: "Dining Room",
     weight: "15Kg",
@@ -254,7 +243,6 @@ export const products = [
     name: "Silistra",
     description:
       "Aenean at velit consequat, faucibus mi id, tempor velit. Aenean at velit consequat, faucibus mi id, tempor velit.",
-    brand: "Oakley",
     category: "Seating",
     gender: "Living Room",
     weight: "2.5Kg",
@@ -270,7 +258,6 @@ export const products = [
     name: "Full rim acetate black",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    brand: "Ray-Ban",
     category: "Storage",
     gender: "Bed Room",
     weight: "25Kg",
@@ -286,7 +273,6 @@ export const products = [
     name: "Ruse",
     description:
       "Fusce sed est nec ipsum convallis semper nec id ipsum. Fusce sed est nec ipsum convallis semper nec id ipsum.",
-    brand: "Kate Spade",
     category: "Seating",
     gender: "Bed Room",
     weight: "40Kg",
@@ -302,7 +288,6 @@ export const products = [
     name: "Yambol",
     description:
       "Vivamus mattis quam sed libero pretium ullamcorper. Vivamus mattis quam sed libero pretium ullamcorper.",
-    brand: "Ray-Ban",
     category: "Seating",
     gender: "Bed Room",
     weight: "20Kg",
@@ -318,7 +303,6 @@ export const products = [
     name: "Roadies Rd-202",
     description:
       "Donec interdum felis non justo sollicitudin lobortis. Donec interdum felis non justo sollicitudin lobortis.",
-    brand: "Carrera",
     category: "Seating",
     gender: "Living Room",
     weight: "5Kg",
@@ -334,7 +318,6 @@ export const products = [
     name: "Burgas",
     description:
       "Donec interdum felis non justo sollicitudin lobortis. Donec interdum felis non justo sollicitudin lobortis.",
-    brand: "Carrera",
     category: "Seating",
     gender: "Living Room",
     weight: "2Kg",
@@ -349,7 +332,6 @@ export const products = [
     qty: 0,
     name: "Sheesham Wood 6 Seater Dining Table ",
     description:" Dimensions (In Centimeters) H 76 x W 147 x D 89",
-    brand: "Kate Spade",
     category: "Tables",
     gender: "Dining Room",
     weight: "20Kg",
@@ -365,7 +347,7 @@ export const products = [
     qty: 0,
     name: "Dresser in Walnut Rigato Woodpore Finish",
     description:"Dimensions (in Inches) H 69 x W 20.5 x D 15.5",
-    brand: "Ray-Ban",
+
     category: "Storage",
     gender: "Bed Room",
     weight: "10Kg",
@@ -381,7 +363,6 @@ export const products = [
     qty: 0,
     name: " Shoe Cabinet in Brown Teak ",
     description:"Dimensions (In Centimeters) H 91 x W 76 x D 36",
-    brand: "Persol",
     category: "Storage",
     gender: "Living Room",
     weight: "13Kg",
@@ -398,7 +379,6 @@ export const products = [
     name: "Jungle Safari",
     description:
       "Integer et nunc in turpis maximus facilisis ac ac elit. Integer et nunc in turpis maximus facilisis ac ac elit.",
-    brand: "Kate Spade",
     category: "Storage",
     gender: " living Room",
     weight: "15Kg",
@@ -430,7 +410,6 @@ export const products = [
     name: "Sofia",
     description:
       "Donec interdum felis non justo sollicitudin lobortis. Donec interdum felis non justo sollicitudin lobortis.",
-    brand: "Carrera",
     category: "Seating",
     gender: " living Room",
     weight: "6kg",
@@ -446,7 +425,6 @@ export const products = [
     name: "Plovediv",
     description:
       "Donec interdum felis non justo sollicitudin lobortis. Donec interdum felis non justo sollicitudin lobortis.",
-    brand: "Carrera",
     category: "Seating",
     gender: "Diing Room",
     weight: "3Kg",
@@ -462,7 +440,6 @@ export const products = [
     name: "Airway Black",
     description:
       "Vestibulum eu tellus sed lorem tristique lacinia ut vel urna. Vestibulum eu tellus sed lorem tristique lacinia ut vel urna.",
-    brand: "Carrera",
     category: "Storage",
     gender: "Bed Room",
     weight: "40kg",
@@ -478,7 +455,6 @@ export const products = [
     name: "Cat-eyed Gold",
     description:
       "Aenean at velit consequat, faucibus mi id, tempor velit. Aenean at velit consequat, faucibus mi id, tempor velit.",
-    brand: "Oakley",
     category: "Storage",
     gender: "Living Room",
     weight: "7Kg",
@@ -494,7 +470,6 @@ export const products = [
     name: "Full Rim Steel Gray",
     description:
       "Fusce sed est nec ipsum convallis semper nec id ipsum. Fusce sed est nec ipsum convallis semper nec id ipsum.",
-    brand: "Kate Spade",
     category: "Storage",
     gender: "Bed Room",
     weight: "20 Kg",
