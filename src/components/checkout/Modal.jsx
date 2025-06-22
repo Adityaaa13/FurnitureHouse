@@ -4,7 +4,6 @@ import { AiOutlineClose } from "react-icons/ai";
 import spinningLoader from "../../assets/spinning-circles.svg";
 import OrderSummary from "./OrderSummary";
 import { useAuthContext, useCartContext } from "../../contexts";
-import appLogo from "../../assets/thugGlasses.png";
 import { useNavigate } from "react-router";
 
 const Modal = ({ showModal, setShowModal }) => {
@@ -54,7 +53,7 @@ const Modal = ({ showModal, setShowModal }) => {
       currency: "INR",
       name: "FurnitureHouse",
       description: "Get your furniture !! :)",
-      image: appLogo,
+
       handler: function () {
         clearCart();
         navigate("/orders", {

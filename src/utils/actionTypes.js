@@ -1,3 +1,6 @@
+
+//action for reducer logic
+
 export const actionTypes = {
   INITIALIZE_PRODUCTS: "INITIALIZE_PRODUCTS",
   UPDATE_PRODUCTS: "UPDATE_PRODUCTS",

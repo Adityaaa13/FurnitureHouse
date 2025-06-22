@@ -30,6 +30,7 @@ const Index = () => {
           <Route key={idx} path={route.path} element={route.element} exact />
         ))}
       </Route>
+      
       <Route element={<SharedLayout />}>
         <Route path="/" element={<Home />} index />
         <Route path="*" element={<ErrorPage />} />

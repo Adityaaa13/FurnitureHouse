@@ -30,16 +30,17 @@ const AuthContextProvider = ({ children }) => {
           JSON.stringify(response?.data?.createdUser)
         );
         setToken(response?.data?.encodedToken);
+        setUserInfo(response?.data?.createdUser);
         notify("success", "Signed Up Successfully!!");
+        return { success: true };
       }
     } catch (err) {
       console.log(err);
-      notify(
-        "error",
-        err?.response?.data?.errors
-          ? err?.response?.data?.errors[0]
-          : "Some Error Occurred!!"
-      );
+      const errorMessage = err?.response?.data?.errors
+        ? err?.response?.data?.errors[0]
+        : "Some Error Occurred!!";
+      notify("error", errorMessage);
+      return { success: false, error: errorMessage };
     } finally {
       setSigningUp(false);
     }
@@ -57,16 +58,17 @@ const AuthContextProvider = ({ children }) => {
           JSON.stringify(response?.data?.foundUser)
         );
         setToken(response?.data?.encodedToken);
+        setUserInfo(response?.data?.foundUser);
         notify("success", "Logged In Successfully!!");
+        return { success: true };
       }
     } catch (err) {
       console.log(err);
-      notify(
-        "error",
-        err?.response?.data?.errors
-          ? err?.response?.data?.errors[0]
-          : "Some Error Occurred!!"
-      );
+      const errorMessage = err?.response?.data?.errors
+        ? err?.response?.data?.errors[0]
+        : "Some Error Occurred!!";
+      notify("error", errorMessage);
+      return { success: false, error: errorMessage };
     } finally {
       setLoggingIn(false);
     }
@@ -76,8 +78,10 @@ const AuthContextProvider = ({ children }) => {
     localStorage.removeItem("token");
     localStorage.removeItem("userInfo");
     setToken(null);
+    setUserInfo(null);
     notify("info", "Logged out successfully!!", 100);
   };
+
   return (
     <AuthContext.Provider
       value={{

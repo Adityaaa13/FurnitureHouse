@@ -2,6 +2,10 @@ import { v4 as uuid } from "uuid";
 import { Response } from "miragejs";
 import { formatDate } from "../utils/authUtils";
 const sign = require("jwt-encode");
+
+// Fallback JWT secret if environment variable is not set
+const JWT_SECRET = process.env.REACT_APP_JWT_SECRET || "furniturehouse_secret_key_2024";
+
 /**
  * All the routes related to Auth are present here.
  * These are Publicly accessible routes.
@@ -39,7 +43,7 @@ export const signupHandler = function (schema, request) {
       wishlist: [],
     };
     const createdUser = schema.users.create(newUser);
-    const encodedToken = sign({ _id, email }, process.env.REACT_APP_JWT_SECRET);
+    const encodedToken = sign({ _id, email }, JWT_SECRET);
     return new Response(201, {}, { createdUser, encodedToken });
   } catch (error) {
     return new Response(
@@ -72,7 +76,7 @@ export const loginHandler = function (schema, request) {
     if (password === foundUser.password) {
       const encodedToken = sign(
         { _id: foundUser._id, email },
-        process.env.REACT_APP_JWT_SECRET
+        JWT_SECRET
       );
       foundUser.password = undefined;
       return new Response(200, {}, { foundUser, encodedToken });
