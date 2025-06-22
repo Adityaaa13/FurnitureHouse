@@ -28,14 +28,7 @@ A modern e-commerce web application for furniture and home decor built with Reac
 3. **Open Browser**
    Navigate to `http://localhost:3000`
 
-## 🔑 Test Accounts
 
-| Email | Password | Name |
-|-------|----------|------|
-| `aditya@gmail.com` | `123@` | Aditya |
-| `john@example.com` | `password123` | John Doe |
-| `jane@example.com` | `password456` | Jane Smith |
-| `admin@furniturehouse.com` | `admin123` | Admin User |
 
 ## 🛠️ Tech Stack
 
